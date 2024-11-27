@@ -1,10 +1,11 @@
-import { NavBar, Hero, Skills} from "./components/index";
+import { NavBar, Hero, Skills, About} from "./components/index";
 const App = () => {
   return (
     <>
       <NavBar />
       <Hero />
       <Skills />
+      <About/>
     </>
   );
 };
