@@ -1,50 +1,66 @@
-# React + TypeScript + Vite
+# Portfolio - FEFernandoEscutia
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to my personal portfolio! This project showcases my skills, experience, and projects as a full-stack web developer. The goal of this portfolio is to provide an overview of my professional background and technical expertise while highlighting the technologies I work with.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
 
-## Expanding the ESLint configuration
+- Modern and responsive design.
+- Overview of my skills and technologies.
+- Showcase of personal and collaborative projects.
+- Contact section to get in touch with me.
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+---
 
-- Configure the top-level `parserOptions` property like this:
+## 🛠️ Tech Stack
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+This portfolio is built using the following technologies:
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+- **Frontend:**
+  - HTML5
+  - CSS3
+  - Tailwind CSS
+  - JavaScript
+  - React
+  - TypeScript
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
+- **Backend:**
+  - Node.js
+  - NestJS
 
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+- **Database:**
+  - PostgreSQL
+
+- **Tools & Libraries:**
+  - Vite
+  - NanoID
+  - React Icons
+
+---
+
+## 📁 Project Structure
+
+- **`/src/components`**: Contains reusable React components.
+- **`/src/helpers`**: Utility files and data for the portfolio.
+- **`/src/interfaces`**: TypeScript interfaces for consistent data modeling.
+
+---
+
+## 📞 Contact Me
+
+Feel free to reach out to me if you have any questions, opportunities, or feedback:
+
+- **Email**: [fernandoescutia@example.com](mailto:fernandoescutia@example.com)
+- **GitHub**: [https://github.com/FEFernandoEscutia](https://github.com/FEFernandoEscutia)
+- **LinkedIn**: [https://linkedin.com/in/FEFernandoEscutia](https://linkedin.com/in/FEFernandoEscutia)
+
+---
+
+## 👨‍💻 About Me
+
+I am a passionate and motivated full-stack web developer from Mexico, specializing in building modern, responsive, and scalable web applications. My background includes experience in both frontend and backend development, with a strong focus on JavaScript, React, and Node.js. I am currently exploring new opportunities to contribute and grow in the tech industry.
+
+---
+
+Thank you for visiting my portfolio!
